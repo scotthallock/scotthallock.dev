@@ -1,6 +1,5 @@
 {
   "name": "scotthallock-dev",
-  "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
@@ -13,5 +12,12 @@
     "@astrojs/tailwind": "^3.1.1",
     "astro": "^2.3.0",
     "tailwindcss": "^3.3.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.58.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-astro": "^0.26.1",
+    "prettier": "^2.8.7",
+    "prettier-plugin-astro": "^0.8.0"
   }
 }
