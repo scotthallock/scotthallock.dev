@@ -1,0 +1,15 @@
+---
+const { name, href } = Astro.props;
+---
+
+<a class="relative group" href={href}>
+  <span
+    class="absolute left-0 bottom-0 w-full h-1/4 bg-teal-400 group-hover:h-full transition-all duration-300"
+  >
+  </span>
+  <span
+    class="relative text-xl group-hover:text-red-600 transition-all duration-300 px-8"
+  >
+    {name}
+  </span>
+</a>

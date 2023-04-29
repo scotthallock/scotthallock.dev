@@ -1,10 +1,22 @@
 ---
 import Hr from "../components/Hr.astro";
+import NavItem from "./NavItem.astro";
 ---
 
 <header>
-  <h1 class="text-3xl font-bold text-center m-10">
-    My little space on the internet
-  </h1>
-  <Hr />
+  <a href="/" class="hover:text-indigo-600 group">
+    <h1 class="text-3xl text-center m-8">
+      scotthallock
+      <span
+        class="text-xl font-normal bg-indigo-600 text-white absolute inline-block transform -translate-y-1 rotate-[15deg] group-hover:rotate-[0deg] px-3"
+      >
+        .dev</span
+      >
+    </h1>
+  </a>
+  <div class="flex justify-center space-x-32 m-4">
+    <NavItem name="Blog" href="/blog" />
+    <NavItem name="Projects" href="/projects" />
+    <NavItem name="About" href="/about" />
+  </div>
 </header>

@@ -6,6 +6,9 @@ module.exports = {
     screens: {
       sm: "640px",
     },
+    fontFamily: {
+      sans: ["Archivio", "sans-serif"],
+    },
     extend: {},
   },
   plugins: [require("@tailwindcss/typography")],

@@ -5,6 +5,10 @@ pubDate: "Apr 27 2023"
 tags: ["third", "post"]
 ---
 
+## Typography in Tailwind CSS
+
+Third post: testing typography
+
 > This article is from [TailwindLabs](https://tailwindcss-typography.vercel.app/). I put this article to demonstrate how you can write blog posts/articles using AstroPaper theme.
 
 By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs because you spend less time undoing user-agent styles, but when you _really are_ just trying to style some content that came from a rich-text editor in a CMS or a markdown file, it can be surprising and unintuitive.
