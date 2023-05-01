@@ -2,14 +2,12 @@
 const { name, href } = Astro.props;
 ---
 
-<a class="relative group" href={href}>
-  <span
-    class="absolute left-0 bottom-0 w-full h-1/4 bg-teal-400 group-hover:h-full transition-all duration-300"
-  >
-  </span>
-  <span
-    class="relative text-xl group-hover:text-red-600 transition-all duration-300 px-8"
-  >
-    {name}
-  </span>
-</a>
+<li class="relative group">
+  <a class="" href={href}>{name}</a>
+  <div class="absolute h-0.5 w-full overflow-hidden">
+    <div
+      class="absolute h-0.5 w-full -translate-x-[105%] group-hover:translate-x-0 will-change-transform transition-transform duration-300 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-400 to-90%"
+    >
+    </div>
+  </div>
+</li>
